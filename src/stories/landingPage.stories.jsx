@@ -5,7 +5,7 @@ import {
   Prompt,
   withHeadless,
 } from "storybook-addon-headless";
-import { LandingPage } from ".";
+import { LandingPage } from "../pages/landingPage";
 
 export default {
   title: "Example/LandingPage",

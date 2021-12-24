@@ -1,5 +1,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
 
 .jumbotron {
@@ -39,6 +41,7 @@ body {
 .features__card__image {
   width: 100%;
   margin-bottom: 20px;
+  min-height: 275px;
 }
 
 .features__card__title {

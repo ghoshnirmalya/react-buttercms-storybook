@@ -1,10 +1,10 @@
 import React from "react";
-import Button from "./components/Button";
+import { Card } from "./stories/Card";
 
 function App() {
   return (
     <div>
-      <Button>Click</Button>
+      <Card label="Hero" />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./styles.css";
 
-export const LandingPage = ({ data }) => {
+const LandingPage = ({ data }) => {
   return (
     <>
       <div className="jumbotron">
@@ -39,3 +39,5 @@ export const LandingPage = ({ data }) => {
 LandingPage.propTypes = {
   name: PropTypes.string,
 };
+
+export default LandingPage;

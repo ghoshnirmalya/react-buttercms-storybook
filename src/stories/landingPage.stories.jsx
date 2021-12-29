@@ -5,7 +5,7 @@ import {
   Prompt,
   withHeadless,
 } from "storybook-addon-headless";
-import { LandingPage } from "../pages/landingPage";
+import LandingPage from "../pages/landingPage";
 
 export default {
   title: "Example/LandingPage",
@@ -13,7 +13,7 @@ export default {
     withHeadless({
       restful: {
         baseURL:
-          "https://api.buttercms.com/v2/pages/landing_page/storybook-demo/?locale=en&preview=1&auth_token=6aa4e6cb6fb959f2dba4323c61710ad900b647d3",
+          "https://api.buttercms.com/v2/pages/*/storybook-demo/?locale=en&preview=1&auth_token=6aa4e6cb6fb959f2dba4323c61710ad900b647d3",
       },
     }),
   ],
